@@ -51,11 +51,11 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  const loaderContainer = document.querySelector('.loader-container');
+  const loaderContainer = document.querySelector('.loader');
   loaderContainer.classList.add('visible');
 }
 
 export function hideLoader() {
-  const loaderContainer = document.querySelector('.loader-container');
+  const loaderContainer = document.querySelector('.loader');
   loaderContainer.classList.remove('visible');
 }
